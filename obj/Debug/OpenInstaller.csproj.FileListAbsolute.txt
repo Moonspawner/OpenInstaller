@@ -4,3 +4,9 @@ c:\users\alexander\documents\visual studio 2013\Projects\OpenInstaller\OpenInsta
 c:\users\alexander\documents\visual studio 2013\Projects\OpenInstaller\OpenInstaller\obj\Debug\OpenInstaller.csprojResolveAssemblyReference.cache
 c:\users\alexander\documents\visual studio 2013\Projects\OpenInstaller\OpenInstaller\obj\Debug\OpenInstaller.exe
 c:\users\alexander\documents\visual studio 2013\Projects\OpenInstaller\OpenInstaller\obj\Debug\OpenInstaller.pdb
+C:\Users\dr4\Documents\Visual Studio 2013\Projects\OpenInstaller\bin\Debug\OpenInstaller.exe.config
+C:\Users\dr4\Documents\Visual Studio 2013\Projects\OpenInstaller\bin\Debug\OpenInstaller.exe
+C:\Users\dr4\Documents\Visual Studio 2013\Projects\OpenInstaller\bin\Debug\OpenInstaller.pdb
+C:\Users\dr4\Documents\Visual Studio 2013\Projects\OpenInstaller\obj\Debug\OpenInstaller.csprojResolveAssemblyReference.cache
+C:\Users\dr4\Documents\Visual Studio 2013\Projects\OpenInstaller\obj\Debug\OpenInstaller.exe
+C:\Users\dr4\Documents\Visual Studio 2013\Projects\OpenInstaller\obj\Debug\OpenInstaller.pdb

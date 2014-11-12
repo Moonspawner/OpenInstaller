@@ -1,7 +1,9 @@
 ﻿using System;
+using System.IO;
 using System.IO.Compression;
 using System.Collections.Generic;
 using System.Linq;
+using System.Net;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -21,9 +23,17 @@ namespace OpenInstaller
 
         public static void GPL()
         {
-            GPLvar = new System.Net.WebClient().DownloadString("http://www.gnu.org/licenses/gpl-3.0.txt");
+            if (!File.Exists("LICENSE.txt"))
+            {
+                using (var file = new StreamWriter("LICENSE.txt", false))
+                {
+#warning this is bad code, should be using HttpWebResponse
+                    file.Write(new WebClient().DownloadString("http://www.gnu.org/licenses/gpl-3.0.txt"));
+                }
+            }
+
             Console.WriteLine("Gnu GPL:\n");
-            Console.WriteLine(GPLvar);
+            Console.WriteLine(new StreamReader("LICENSE.txt").ReadToEnd());
             Console.Read();
         }
 
